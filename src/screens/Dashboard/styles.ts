@@ -8,3 +8,10 @@ export const Container = styled.View`
   /* background-color: ${(props) => props.theme.colors.primary}; */
   background-color: ${({ theme }) => theme.colors.background};
 `;
+
+export const Title = styled.Text`
+  font-family: ${({ theme }) => theme.fonts.bold};
+  font-size: 32px;
+  font-weight: bold;
+  color: ${({ theme }) => theme.colors.attention};
+`;
